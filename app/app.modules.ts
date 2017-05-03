@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './component.app';
-import { ArtistItemComponent } from './component.artist-item';
-import { ArtistDetailsComponent } from './component.artist-details';
+import { ProductItemComponent } from './component.Product-item';
+import { ProductDetailsComponent } from './component.Product-details';
 
 import { SearchPipe } from './pipe.search';
 
@@ -13,7 +13,7 @@ import { SearchPipe } from './pipe.search';
     BrowserModule, FormsModule
   ],
   declarations: [
-    AppComponent, ArtistItemComponent, ArtistDetailsComponent, SearchPipe
+    AppComponent, ProductItemComponent, ProductDetailsComponent, SearchPipe
   ],
   bootstrap: [
     AppComponent

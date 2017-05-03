@@ -1,5 +1,5 @@
 <div class="card search">
-  <h1 class="search-headline">Test Directory</h1>
+  <h1 class="search-headline">Product Directory</h1>
   <label class="search-label">search
     <span *ngIf="query"
       [innerHTML]="' for: ' + query"></span></label>
@@ -7,15 +7,15 @@
       [(ngModel)]="query" placeholder="type in search term here">
 </div><!-- card search -->
 
-<ul class="artistlist cf"
+<ul class="Productlist cf"
   *ngIf="query">
-  <li class="artistlist-item cf"
-    (click)="showArtist(item); query=''"
-    *ngFor="let item of (artists | search: query)">
-    <artist-item class="content" [artist]=item></artist-item>
+  <li class="Productlist-item cf"
+    (click)="showProduct(item); query=''"
+    *ngFor="let item of (Products | search: query)">
+    <Product-item class="content" [Product]=item></Product-item>
   </li>
 </ul>
 
-<artist-details 
-  *ngIf="currentArtist"
-  [artist]="currentArtist"></artist-details>
+<Product-details 
+  *ngIf="currentProduct"
+  [Product]="currentProduct"></Product-details>

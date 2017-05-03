@@ -1,0 +1,39 @@
+.Product-details {
+  position: absolute;
+  background: white;
+  width: 100%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 30px 40px;
+  position: relative;
+  opacity: 1;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 1px 0 rgba(0,0,0,.25);
+}
+
+.Product-details .Product-name{
+  font-size: 2em;
+  margin-bottom: 3px;
+}
+
+.Product-details .Product-reknown {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+
+.Product-details .Product-img {
+  width: 40%;
+  max-width: 130px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.Product-details .Product-longbio {
+  font-size: 1rem;
+  line-height: 160%;
+}

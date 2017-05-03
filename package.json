@@ -1,11 +1,11 @@
 {
-  "name": "learn-angular",
+  "name": "AngularJS",
   "version": "1.0.0",
-  "author": "Ray Villalobos",
-  "description": "This project is the repository for my Learn Angular course",
+  "author": "Joe Ytuarte",
+  "description": "AngularJS Project",
   "repository": {
     "type": "git",
-    "url": "https://github.com/planetoftheweb/learnangular.git"
+    "url": "https://github.com/STIHLInc/AngularJS.git"
   },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
